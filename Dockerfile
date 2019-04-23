@@ -1,6 +1,6 @@
 FROM archlinux/base
 
-RUN pacman -Syu --noconfirm code python python-pip python-pytest python-jedi python-isort flake8 mypy bandit ctags yapf jupyter jupyter-notebook firefox fish
+RUN pacman -Syu --noconfirm code python python-pip python-pytest python-jedi python-black python-isort flake8 mypy bandit ctags jupyter jupyter-notebook firefox fish
 
 RUN useradd -m coder 
 ADD [".bashrc", "/home/coder/"]

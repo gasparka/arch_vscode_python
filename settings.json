@@ -15,7 +15,7 @@
     "python.linting.banditEnabled": true,
     "python.unitTest.pyTestEnabled": true,
     "python.linting.pylintEnabled": false,
-    "python.formatting.provider": "yapf",
+    "python.formatting.provider": "black",
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.formatOnPaste": true,
