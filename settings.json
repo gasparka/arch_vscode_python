@@ -1,0 +1,22 @@
+{
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "editor.minimap.enabled": false,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.hypothesis": true,
+        "**/.ipynb_checkpoints": true,
+        "**/*.egg-info": true
+    },
+    "workbench.colorTheme": "Darcula Pycharm Theme (dimmed)",
+    "editor.fontFamily": "'Source Code Pro'",
+    "workbench.iconTheme": "vs-minimal",
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.banditEnabled": true,
+    "python.unitTest.pyTestEnabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.formatting.provider": "yapf",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+}

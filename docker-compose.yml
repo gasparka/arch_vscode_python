@@ -1,0 +1,17 @@
+version: "3"
+services:
+  code:
+    container_name: code
+    build: .
+
+    # stuff to enable remote screen (display the GUI)
+    environment: 
+      - DISPLAY
+    volumes: 
+      - $HOME/.Xauthority:/root/.Xauthority
+    network_mode: "host"
+    user: "1000"
+    
+    working_dir: /home/coder/src/
+    command: code /home/coder/src/ --wait --verbose
+    #  command: code --status --verbose
